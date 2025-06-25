@@ -73,7 +73,7 @@ class OnboardingView extends StatelessWidget {
               },
 
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xFF8DBF42), // hijau soft
+                    backgroundColor: Color(0XFF8DAC60), // hijau soft
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -83,7 +83,7 @@ class OnboardingView extends StatelessWidget {
                     "Get started",
                     style: TextStyle(
                       fontFamily: "PoppinsBold",
-                      fontSize: 16,
+                      fontSize: 22,
                       fontWeight: FontWeight.w500,
                       color: Colors.white,
                     ),
@@ -93,34 +93,6 @@ class OnboardingView extends StatelessWidget {
 
               const SizedBox(height: 16),
 
-              // Login Link
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text(
-                    "already have account? ",
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontFamily: "Poppins",
-                      color: Colors.black54,
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: () {
-                      // Navigasi ke halaman login
-                    },
-                    child: const Text(
-                      "Login",
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontFamily: "Poppins",
-                        color: Colors.blue,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ],
-              )
             ],
           ),
         ),

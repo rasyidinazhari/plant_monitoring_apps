@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.plantsentry"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // Ensure this matches your NDK version
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
