@@ -59,22 +59,4 @@ and [this blog post][blog_flavouring_flutter].
 [flutter_flavours_official]: https://flutter.dev/docs/deployment/flavors
 [blog_flavouring_flutter]: https://medium.com/@salvatoregiordanoo/flavoring-flutter-392aaa875f36
 
-# Use as template
-
-You can copy this repository with the _Use this template_ button and go on from there, or download the code and use it in you project.
-Afterwards, you'll need to rename the project and change the app id and configuration. There are ToDos scattered through the project that will help you transition this project to your needs.
-
-<img src="https://github.com/webfactorymk/flutter-template/blob/main/diagrams/use_as_template.png" alt="Use as template" width="520">
-
-
-## [Head to the Wiki page for project documentation.](https://github.com/webfactorymk/flutter-template/wiki)
-
-## Resolve TODOs
-
-Go over the TODOs scattered around the project and resolve as much as possible. They will help you configure the project to your needs.
-
-In AndroidStudio you can view all TODOs in the bottom tab as shown in this picture:
-
-![TODOs bottom tab in AS](http://jubin.tech/assets/pic/20181023-1-todo-in-AS.png)
-
 
